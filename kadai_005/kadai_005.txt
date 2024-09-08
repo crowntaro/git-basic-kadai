@@ -1,0 +1,48 @@
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/javascript-basic-kadai/git_challenge (main)
+$ cd "C:\Users\Hiroko Orimoto\Desktop\samurai\git-basic-kadai"
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai
+$ mkdir git_challenge
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai
+$ cd "C:\Users\Hiroko Orimoto\Desktop\samurai\git-basic-kadai\git_challenge"
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/Hiroko Orimoto/Desktop/samurai/git-basic-kadai/git_challenge/.git/
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git add hello_world.txt
+
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git add hello_world.txt
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git commit -m "Hello Worldテキストを登録"
+[main (root-commit) f757222] Hello Worldテキストを登録
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git add hello_world.txt
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main 0b36e2d] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Hiroko Orimoto@DESKTOP-4MT1DJG MINGW64 ~/Desktop/samurai/git-basic-kadai/git_challenge (main)
+$ git log --oneline
+0b36e2d (HEAD -> main) 日本語訳を追加
+f757222 Hello Worldテキストを登録
